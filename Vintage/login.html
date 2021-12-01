@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="login.css">
+    </head>
+    <body>
+        <!--drop down menu-->
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="#">Shop</a>
+            <div class="aboutus">
+                <a href="#">About Us</a>
+                <div class="aboutus-content">
+                    <a href="#">E-mail</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Phone number</a>
+                </div>
+            </div>
+        </div>
+
+        <!--from-->
+         <h2>Registration <Form></Form></h2>
+        <div class="wrap">
+        <From>
+            <!--label for must match input id-->
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username" value="poom"><br>
+            <label for="password">Password:</label><br>
+            <input type="password"  id="password" name="password"><br>
+            <lebal for="email">Email:</lebal><br>
+            <input type="email" id="email" name="email" placeholder="Your email here"><br>
+            <label for="address">Address:</label><br>
+            <textarea type="text" id="address" name="address"
+            rows="10" cols="20"></textarea><br><br>
+            <!--add javascript for pop-up window-->
+            <button type="submit">Sign Up</button>
+            <script>
+                function done() {
+                    alert("Sent!");
+                }
+            </script>
+            </div>
+        </From>
+    </body>
+</html>

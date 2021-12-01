@@ -1,0 +1,469 @@
+body *{
+    display: block;
+    margin: 0rem;
+    text-align: center;
+    padding: 0%;
+    font-family:'Times New Roman', Times, serif;
+    max-width: 100%;
+}
+
+* {
+    margin: 0rem;
+    padding: 0;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    transition-duration: 0.4s;
+}
+
+/*header*/
+
+.header {
+    background: #000066;
+}
+
+.logo img {
+    margin: 0rem;
+    display: cover;
+    padding: 2rem;
+}
+
+.search {
+    display: inline-block;
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
+    color: white;
+}
+
+.search form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    margin-top: 50px;
+    box-sizing: border-box;
+  }
+  
+.search form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    margin-top: 50px;
+    box-sizing: border-box;
+  }
+  
+  .search  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  .search form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.button {
+    background-color: black;
+    border: none;
+    display: inline;
+    margin: 1rem;
+    padding: 5px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.button:hover {
+    background-color: orange;
+    color: black;
+    transition: 0.4s;
+}
+
+/*navigation bar*/
+.navbar {
+    background-color: #CC0000;
+    overflow: hidden;
+    width: 100%;
+    font-size: 20px;
+    display: block;
+    text-align: right;
+}
+
+.navbar a {
+    padding: 1rem;
+    display: inline-block;
+    color: white;
+}
+
+.navbar a:hover {
+    background-color: none;
+    color: black;
+}
+
+/*drop-down*/
+
+.visit {
+    display: inline-block;
+}
+
+.visit-content {
+    display:none;
+    position: absolute;
+    background-color: orange;
+    font-size: 17px;
+}
+
+.visit-content a {
+    display: block;
+    text-align: left;
+    width: 200px;
+    text-align: center;
+}
+
+.visit:hover .visit-content {
+    display: block;
+}
+
+.aboutus {
+    display: inline-block;
+}
+
+.aboutus-content {
+    display: none;
+    position: absolute;
+    background-color: orange;
+    width: 200px;
+    font-size: 17px;
+    right: 0;
+}
+
+.aboutus-content a {
+    display: block;
+    text-align: center;
+}
+
+.aboutus:hover .aboutus-content{
+    display: block;
+}
+
+/*welcome*/
+.welcome {
+    display: block;
+    background-image: url(images/Welcome1.jpg);
+    background-size: cover;
+    background-position-y: 60%;
+    min-height: 600px;
+}
+.welcome-text {
+    display: inline-block;
+    max-width: 500px;
+    padding: 4rem;
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 60%;
+    height: 400px;
+    background-color: black;
+    position: relative;
+    animation: mymove 5s;
+    animation-fill-mode: forwards;
+}
+@keyframes mymove {
+    from {right: 0px;}
+    to  {right: 60%;}
+  }
+
+/*find out more*/
+.welcome-text p {
+    font-weight: 100;
+    padding: 30px 0;
+}
+
+.welcome a:link {
+    color: orange;
+    text-decoration: none;
+}
+
+.welcome a:visited{
+    color: red;
+    text-decoration: none;
+}
+
+.welcome a:hover {
+    color: black;
+    transition-duration: 0.4s;
+    background-color: violet;
+}
+
+.welcome a:active {
+    color: orange;
+}
+
+/*what's on*/
+.whatson {
+    margin: 1rem;
+    padding: 1rem;
+    overflow-x: hidden;
+    background-color: white;
+    color: white;
+    
+}
+.whatson a:hover{
+    color: rgb(0, 132, 255);
+}
+
+.whatson h1 {
+    background-color: #000066;
+    color: white;
+    width: 180px;
+    height: 50px;
+    margin: 4px 2px;
+    padding: 8px 0px;
+}
+
+.whatson-wrap {
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
+}
+
+.whatson table {
+    display: inline-block ;
+    background-color:#CC0000;
+    margin: 1rem;
+    padding: 0rem;
+}
+
+.whatson img {
+    width: 400px;
+    height: 260px;
+    object-fit: cover;
+    overflow-x: hidden;
+    display: inline-block;
+}
+
+.caption {
+    padding: 0rem;
+    color:black;
+}
+
+/*collections*/
+.collections {
+    margin: 1rem;
+    padding: 1rem;
+    display: block;
+    overflow-x: hidden;
+    color: black;
+    background-color: white;
+}
+
+
+.collections a {
+    text-align: center;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+}
+
+.collections-warp {
+    text-align: center;
+    overflow-x: hidden;
+    margin: 1px;
+    padding: 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/*newsletter*/
+.newsletter {
+    display: block;
+    background-color: firebrick;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    height: 400px;
+    width: 90%;
+    background-image: url(images/signup.jpg);
+    background-size: 43%;
+    background-repeat:no-repeat;
+    background-position-x: right;
+    background-position-y: 50%;
+    overflow: hidden;
+}
+
+.newsletter-text {
+    width: 50%;
+    height: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 30px;
+}
+input[type=text], input[type=password]{
+    width: 30%;
+    padding: 5px;
+    margin: 10px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: rgb(139, 139, 139);
+    outline: none;
+  }
+  .newsletter button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 14px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .newsletter button:hover{
+    background-color: #3c803e;
+    color: white;
+  }
+
+/*form input*/
+
+/*sign-up button*/
+
+/*footer*/
+.footer {
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+}
+
+/*coyright*/
+.copyright {
+    display: block;
+    background-color: firebrick;
+    color: white;
+    font-size: 15px;
+    font-family: 'Times New Roman';
+    line-height: 2rem;
+    margin-right: 0;
+    max-width: 100%;
+    padding-left: 3rem;
+    overflow-x: hidden;
+}
+
+/*social media*/
+.m-socialmedia {
+    background-color: black;
+    width: 20px;
+    text-align: center;
+    padding: 20px 10px;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.m-socialmedia a {
+    color: white;
+}
+
+.m-socialmedia a:hover {
+    color: red;
+}
+
+
+.contactinfo{
+    background-color: orange;
+    width: 500px;
+    height: 200px;
+}
+.sitemap{
+    background-color: #000066;
+    width: 1350px;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.sitemap a{
+    color: rgb(187, 187, 187);
+}
+.sitemap h2{
+    color: white;
+}
+.collections h1{
+    background-color: #000066;
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin: 4px 2px;
+    padding: 8px 0px;
+}
+
+/* พี่ดอม css */
+.w3-button{
+    border:none;
+    display:inline-block;
+    padding:8px 16px;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    color:inherit;
+    background-color:inherit;
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap
+}
+.w3-grey{
+    color:rgb(255, 255, 255);
+    background-color: transparent;
+}
+.w3-grey:hover{
+    background-color:#555555
+}
+
+.w3-display-left{
+    position:absolute;
+    top:50%;left:0%;
+    transform:translate(0%,-50%);
+    -ms-transform:translate(-0%,-50%)
+}
+.w3-display-right{
+    position:absolute;
+    top:50%;right:0%;
+    transform:translate(0%,-50%);
+    -ms-transform:translate(0%,-50%)
+}
+
+.w3-content{
+    margin-left:auto;
+    margin-right:auto
+}
+.w3-display-container{
+    position:relative
+}
+/* พี่ดอม css */

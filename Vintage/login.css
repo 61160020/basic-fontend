@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    background-color: red;
+    text-align: center;
+}
+.navbar a{
+    text-decoration: none;
+    color:black;
+    display: inline-block;
+    padding: 20px;
+}
+
+.navbar a:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 0.4s;
+}
+
+.aboutus {
+    display: inline-block;
+}
+
+.aboutus:hover .aboutus-content {
+    display: block;
+}
+.aboutus-content {
+    display: none;
+    position: absolute;
+    background-color: red;
+    text-align: left;
+    width: 300px;
+}
+
+.aboutus-content a{
+    display: block;
+}
+h2{
+    text-align: center;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: royalblue;
+    color: black;
+}
+
+input[type=email] {
+    width: 200px;
+    height: 30px;
+}
+
+button {
+    background-color: transparent;
+    padding: 10px;
+    border: 2px dotted yellow;
+    border-radius: 8px;
+    color:yellow;
+}

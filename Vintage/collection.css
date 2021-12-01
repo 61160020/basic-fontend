@@ -1,0 +1,76 @@
+body{
+    margin:0;
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  margin-top: 35px;
+  margin-left: 80px;
+  padding: 0 10px;
+  float: left;
+  width: 28%;
+}
+.navbar {
+    background-color: red;
+    text-align: center;
+    width: 100px;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    display: inline-block;
+    padding: 20px;
+}
+
+.navbar a:hover {
+    background-color: white;
+    width: 100px;
+    color: black;
+    transition-duration: 0.4s;
+}
+.backbar {
+    background-color: red;
+    text-align: center;
+    width: 100px;
+}
+.backbar a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    display: inline-block;
+    padding: 20px;
+}
+
+.backbar a:hover {
+    background-color: white;
+    width: 100px;
+    color: black;
+    transition-duration: 0.4s;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

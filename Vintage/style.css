@@ -1,0 +1,292 @@
+body{
+    background-color:rgb(255, 255, 255) ;
+    line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+    margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.navbar1{
+    background-color:rgb(226, 19, 12) ;
+    text-align: right;
+    font-weight: bold;
+    font-size: large;
+}
+
+.navbar1 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 20px 40px;
+    display: inline-block;
+}
+
+.navbar2{
+    background-color:rgb(255, 255, 255) ;
+    text-align: right;
+    font-weight: bold;
+    font-size: large;
+}
+
+.navbar2 a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    padding: 20px 40px;
+}
+
+.navbar2 a:hover {
+    background-color: rgb(68, 68, 68);
+    color: rgb(255, 255, 255);
+    transition-duration: 0.4s;
+}
+.copyright {
+    display: block;
+    background-color: rgb(226, 19, 12);
+    color: white;
+    font-size: 15px;
+    line-height: 2rem;
+    margin-right: 0;
+    max-width: 100%;
+    padding-left: 30px;
+    overflow-x: hidden;
+}
+
+.drop{
+    display: inline-block;
+}
+
+.drop:hover .drop-content{
+    display: block;
+}
+
+.drop-content {
+    display: none;
+    position: absolute;
+    background-color:rgb(68, 68, 68);
+    text-align: left;
+    width: 300px;
+}
+
+.drop-content a{
+    display: block;
+    color: rgb(255, 255, 255);
+}
+
+.logo img{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 120px;
+    height: 120px;
+}
+
+.bgimage{
+    width: 100%;
+    height: 500px;
+    background-image: url('images/img.jpg');
+    background-size: 100% 100%;
+}
+
+.whaton{
+    background-color:rgb(0, 0, 255) ;
+    padding: 15px 40px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.whaton a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    display: inline-block;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    max-width: 1170px;
+	margin:auto;
+}
+.container2 {
+    display: flex;
+    justify-content: center;
+    max-width: 1170px;
+	margin:auto;
+}
+
+.card {
+    background-color: rgb(251, 236, 214);
+    border-style: solid;
+    border-width: 1px;
+    border-color:rgb(0, 0, 0);
+    text-align: center;
+    width: 300px;
+    height: 500px;
+    margin: 20px;
+}
+.card a{
+    color: rgb(0, 0, 255);
+    transition-duration: 1s;
+}
+.card a:hover{
+    color: rgb(253, 253, 253);
+    transition-duration: 1s;
+}
+
+.card-image {
+    height: 300px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card1{
+    background-image: url('./images/what1.jpg');
+}
+.card2{
+    background-image: url('./images/what2.jpg');
+}
+.card3{
+    background-image: url('./images/what3.png');
+}
+
+.collection{
+    background-color:rgb(226, 19, 12) ;
+    padding: 15px 40px;
+    text-align: left;
+    font-weight: bold;
+}
+.collection a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    display: inline-block;
+}
+
+.card-image2 {
+    background-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color:rgb(0, 0, 0);
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+.card4{
+    background-image: url('./images/collection1.jpg');
+    background-position: center;
+}
+.card5{
+    background-image: url('./images/collection2\ .jpg');
+    background-position: center;
+}
+.card6{
+    background-image: url('./images/collection3.jpg');
+    background-position: center;
+}
+
+.signup{
+    background-image: url('images/signup.jpg');
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+    padding: 20px 40px;
+    width: 80%;
+    height: 350px;
+    margin-top: 30px;
+    margin-left: 100px;
+    background-size: cover;
+    border-style: solid;
+    border-width: 1px;
+    border-color:rgb(0, 0, 0);
+}
+input[type=text] {
+    background-color: rgb(251, 236, 214);
+    color: rgb(255, 0, 0);
+    font-size: x-large;
+    font-weight: bold;
+    border: 1px;
+    border-color: black;
+    width: 55%;
+    padding: 22px 20px;
+    margin: 50px 20px;
+    box-sizing: border-box;
+}
+
+.button {
+    background-color:rgb(251, 226, 187);
+    padding: 22px 30px;
+    margin: 4px 2px;
+    border: 2px  #070706;
+}
+
+
+.button a{
+    color: rgb(255, 0, 0);
+    font-size: x-large;
+    font-weight: bold;
+}
+.button a:hover{
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: rgb(251, 226, 187);
+    color: #000000;
+    height: 400px;
+    position: relative;
+  }
+  
+  .footer .footer-content {
+    height: 350px;
+    display: flex;
+  }
+  
+  .footer .footer-content .footer-section {
+    flex: 1;
+    padding: 25px;
+  }
+  
+  .footer .footer-content h1,
+  .footer .footer-content h2 {
+    color: rgb(0, 0, 0);
+  }
+
+  .footer .footer-content .about p {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+    margin-left: 100px;
+  }
+  .footer .footer-content .about span1 {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+    margin-left: 60px;
+  }
+   
+  .footer .footer-content .about .contact span {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+  }
+  
+  .footer .footer-content .about .socials a {
+    padding: 5px 5px;
+    margin-right: 10px;
+  }
+.more{
+    text-align: center;
+    font-size: x-large;
+}
+.more a{
+    color: rgb(0, 0, 255);
+    transition-duration: 0.6s;
+}
+.more a:hover{
+    color: rgb(255, 255, 255);
+    transition-duration: 0.6s;
+}
